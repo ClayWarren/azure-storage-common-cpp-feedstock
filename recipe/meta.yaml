@@ -10,6 +10,7 @@ source:
   sha256: {{ sha256 }}
   patches:
     - 0001-remove-private-deps-from-exported-config.patch
+    - 0002-include-cstdint.patch
 
 build:
   number: 2
